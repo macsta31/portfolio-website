@@ -25,13 +25,17 @@
     gap: 50px;
     list-style: none;
     font-size: 1.2em;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
 
 }
 .technologies > li {
     display: inline-block;
     text-align: center;
     padding: 20px;
-    border: 1px #00539CFF solid;
-    min-width: 100px;
+    border: 2px #00539CFF solid;
+    width:min-content;
+    height:min-content;
     border-radius: 30px;
 }

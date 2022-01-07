@@ -1,20 +1,27 @@
 nav {
     display:flex; 
     justify-content: space-around;
+    padding: 30px;
     gap: 2em;
     align-items: center;
     min-height: 10vh;
     color:white;
 }
+ul{
+    list-style-type: decimal-leading-zero;
+}
 .nav-list{
     padding:0 50px;
     display:flex;
+    flex-wrap:wrap;
     gap: 100px;
     justify-content: space-around;
     align-items:center;
-    list-style:none;
-
-
+    color:white;
+    list-style-type: decimal-leading-zero; 
+}
+.header-list-style{
+    display:list-item;
 }
 button{
     border: none;

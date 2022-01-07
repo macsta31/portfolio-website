@@ -5,15 +5,17 @@ const Nav = () => {
 
     let navigate = useNavigate()
     return (
+        <div>
         <nav>
             <ul className='nav-list'>
-                <button onClick={() => navigate("/")} className="header-list-item">About</button>
-                <button onClick={() => navigate("/projects")} className="header-list-item">Projects</button>
-                <button onClick={() => navigate("/")} className="header-list-item">Journey</button>
-                <button onClick={() => navigate("/")} className="header-list-item">Accomplishments</button>
+                <li><button onClick={() => navigate("/")} className="header-list-item">About</button></li>
+                <li><button onClick={() => navigate("/projects")} className="header-list-item">Projects</button></li>
+                <li><button onClick={() => navigate("/")} className="header-list-item">Journey</button></li>
+                <li><button onClick={() => navigate("/")} className="header-list-item">Accomplishments</button></li>
             </ul>  
                 
         </nav>
+        </div>
     )
 }
 
