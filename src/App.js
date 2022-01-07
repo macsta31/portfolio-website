@@ -3,25 +3,27 @@ import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import Intro from './components/Intro'
 import Projects from './components/Projects';
+import About from './components/About';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 
 
 function App() {
-  const onHover = () => {
-  console.log('hover')
-  }
-  const unHover = () => {
-    console.log('off')
-  }
+  
 
 
   return (
-    <div className="App" style={{ backgroundColor: 'lightgrey'}}>
-      <Header onMouseEnter={onHover} onMouseExit={unHover} />
+    <div className='appContainer'>
+      <Router>
+        
+      <Header />
       <Intro />
-      <Projects />
-      <Sidebar />
-      
+      <Routes> 
+        <Route path="/" element={<About />} />
+        <Route path="/projects"  element={<Projects />} />
+      </Routes> 
+      <Sidebar /> 
+      </Router>
     </div>
   );
 }

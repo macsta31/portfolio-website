@@ -1,6 +1,6 @@
 .sidebar-container{
-    position: absolute;
-    left:0;
+    position: fixed;
+    left:10;
     bottom:0;
     padding-left: 10px;
 }

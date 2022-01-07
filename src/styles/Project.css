@@ -1,6 +1,7 @@
 .card{
     border: 1px solid black;
     border-radius: 20px;
+    box-shadow: 10px 10px 10px grey;
     display:flex;
     flex-direction: column;
     min-width: 350px;
@@ -9,7 +10,8 @@
     align-items: center;
     /* justify-content: center; */
     gap: 2em;
-    box-shadow: 10px 10px  10px grey;
+    color:black;
+
 }
 
 .card-title{
@@ -19,6 +21,7 @@
 .card-btn{
     border:0;
     background-color: transparent;
+    color:black;
 
     margin: 25px;
     padding: 10px 15px;

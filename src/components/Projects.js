@@ -8,6 +8,8 @@ const Projects = () => {
             <div className="projects-showcase">
                 <Project />
                 <Project />
+                <Project />
+                <Project />
             </div>
         </div>
     )

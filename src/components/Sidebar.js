@@ -6,9 +6,9 @@ const Sidebar = () => {
     return (
         <div className="sidebar-container">
             <ul className="socials-tab">
-                <li><SocialIcon style={{margin:5}}  url="https://github.com/macsta31" bgColor="grey"/></li>
-                <li><SocialIcon style={{margin:5}}  url="https://www.linkedin.com/in/mack-stathis-aa07b31a2/" bgColor="grey"/></li>
-                <li><SocialIcon style={{margin:5}}  url="https://www.instagram.com/mackstathis/?hl=en" bgColor="grey"/></li>
+                <li><SocialIcon style={{margin:5}}  url="https://github.com/macsta31" bgColor="#00539CFF"/></li>
+                <li><SocialIcon style={{margin:5}}  url="https://www.linkedin.com/in/mack-stathis-aa07b31a2/" bgColor="#00539CFF"/></li>
+                <li><SocialIcon style={{margin:5}}  url="https://www.instagram.com/mackstathis/?hl=en" bgColor="#00539CFF"/></li>
                 
             </ul>
         </div>

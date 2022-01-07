@@ -1,9 +1,11 @@
 .container{
-    padding: 60px;
+    padding: 200px 60px;
     display:flex;
     justify-content: center;
     align-items:center;
     gap: 20px;
     flex-direction:column;
+    height: 50vh;
+    background-color:  #00539CFF;
     
 }
