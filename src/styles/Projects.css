@@ -1,0 +1,11 @@
+.projects-showcase{
+    display:grid;
+    gap: 50px;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+}
+.projects-container{
+    display:flex;
+    justify-content:center;
+    padding-top: 50px;
+}
